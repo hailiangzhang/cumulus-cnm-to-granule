@@ -25,3 +25,6 @@ ENV PATH="${PATH}:${GRADLE_HOME}/bin"
 # Verify Gradle installation
 RUN gradle --version
 
+# Run the following script to build the package
+# mvn clean dependency:copy-dependencies
+# gradle build
